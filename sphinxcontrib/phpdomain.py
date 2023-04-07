@@ -548,9 +548,8 @@ class PhpXRefRole(XRefRole):
                 if m:
                     title = m.group(1)
 
-        if not title.startswith("$"):
-            refnode['php:namespace'] = env.temp_data.get('php:namespace')
-            refnode['php:class'] = env.temp_data.get('php:class')
+        refnode['php:namespace'] = env.temp_data.get('php:namespace')
+        refnode['php:class'] = env.temp_data.get('php:class')
 
         return title, target
 
