@@ -172,6 +172,8 @@ Test Case - Global symbols with no namespaces
 
 :php:func:`DateTime::$testattr`
 
+:php:attr:`~DateTime::$testattr`
+
 :php:func:`OtherClass::update`
 
 :php:attr:`OtherClass::$nonIndentedAttribute`
@@ -325,6 +327,8 @@ Test Case - not including namespace
 
 :php:attr:`LibraryClass::$property`
 
+:php:attr:`~LibraryClass::$property`
+
 :php:const:`LibraryClass::TEST_CONST`
 
 :php:class:`LibraryName\\OtherClass`
@@ -377,6 +381,8 @@ Test Case - global access
 :php:const:`SOME_CONSTANT`
 
 :php:attr:`LibraryName\\LibraryClass::$property`
+
+:php:attr:`~LibraryName\\LibraryClass::$property`
 
 :php:const:`LibraryName\\LibraryClass::TEST_CONST`
 
